@@ -1,13 +1,13 @@
 # react-video-trimmer
 
-Amazing React component for manipulating video length.
+React component to trim video
 
 With the aid of FFMPEG in the browser, it get easier to do amazing things with
 media content.
 
 ## Demo
 
-[See Demo](https://limistah.github.io/react-video-trimmer/)
+[See Demo](https://hellno.github.io/react-video-trimmer/)
 
 ## Installation
 
@@ -178,7 +178,7 @@ file
 
 ##### params
 
-- **encodedVideo: Blob** Encoded video data converted to `Blob`
+- **encodedVideo: Blob** Encoded video data converted to `Blob`  
 
 ## Preloading ffmpeg
 
@@ -202,3 +202,6 @@ MIT
 
 This library uses the work of the guys at
 [ffmpeg-webworker](https://www.npmjs.com/package/ffmpeg-webworker)
+
+Based on the original package by [@limistah](https://github.com/limistah):  
+https://github.com/limistah/react-video-trimmer
